@@ -1,1 +1,4 @@
-
+	for i=1,4 do
+		game:GetService("StarterGui"):SetCore("SendNotification", {Title = "⚠️ ไม่สามารถใช้สคริปนี้ได้",Text = "ปิดให้ใช้แล้วนะครับ",Duration = 5})
+		wait(4)
+	end
